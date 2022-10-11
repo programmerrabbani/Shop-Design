@@ -89,6 +89,7 @@
 .tags-item{
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .tags-item a{
     display: block;
@@ -99,6 +100,16 @@
     border-radius: 5px;
 }
 
+/* .card-img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} */
 
 
 .product_til h2{

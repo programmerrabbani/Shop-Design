@@ -131,26 +131,30 @@
                     </div>
                     <div class="my-3">
                         <label for="category">Category</label>
-                        <select class="form-control" name="category" id="category">
+                        <select class="form-control" name="category" id="categoryForm">
                             <option value="">-SELECT-</option>
                         </select>
                     </div>
                     <div class="my-3">
                         <label for="brand">Brand</label>
-                        <select class="form-control" name="brand" id="brand">
+                        <select class="form-control" name="brand" id="BrandForm">
                             <option value="">-SELECT-</option>
                         </select>
                     </div>
                     <div class="my-3">
-                        <label for="tag">Tag</label>
-                        <select class="form-control" name="tag" id="tag">
+                        <label for="tagForm">Tag</label>
+                        <select class="form-control" name="tag" id="TagForm">
                             <option value="">-SELECT-</option>
                         </select>
                     </div>
                     <div class="my-3">
                         <label for="Photo">Photo</label>
-                        <input required type="file" name="product_pic" multiple class="form-control" />
+                        <input required type="file" multiple name="product_pic" class="form-control" />
                     </div>
+                    <!-- <div class="my-3">
+                        <label for="gallery">Gallery</label>
+                        <input required type="file" name="product_gallery" multiple class="form-control" />
+                    </div> -->
                     <div class="my-3">
                         <label for="status">Status</label>
                         <select required class="form-control" name="status" id="status">
@@ -195,8 +199,9 @@
    </div>
 
 
-   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.12.1/datatables.min.js"></script>
     <script src="./app.js"></script>
     <script>
